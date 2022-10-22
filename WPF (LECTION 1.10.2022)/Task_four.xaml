@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF__LECTION_1._10._2022_.Task_four"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF__LECTION_1._10._2022_"
+        mc:Ignorable="d"
+        Title="Task_four" Height="460" Width="813">
+    <Grid>
+        <Label x:Name="Label_Task_Four" Content="Поменять местами в массиве максимальный по модулю отрицательный элемент&#xD;&#xA; и минимальный положительный.&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="Label_Razmer_mas" Content="Введите необходимый размер массива" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBox_Razmer_mas" HorizontalAlignment="Center" Margin="0,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <Label x:Name="Label_First_mas" Content="Массив до перестановки" HorizontalAlignment="Left" Margin="334,185,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.463,-0.071"/>
+        <TextBox x:Name="TextBox_First_mas" HorizontalAlignment="Left" Margin="22,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="751"/>
+        <Label x:Name="Label_Mas_Two" Content="Массив после перестановки" HorizontalAlignment="Center" Margin="0,257,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBox_Mas_Two" HorizontalAlignment="Center" Margin="0,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="752"/>
+        <Button x:Name="Button_mas_elements" Content="Вывести массив" HorizontalAlignment="Left" Margin="327,337,0,0" VerticalAlignment="Top" Height="43" Width="141" Click="Button_mas_elements_Click"/>
+
+    </Grid>
+</Window>

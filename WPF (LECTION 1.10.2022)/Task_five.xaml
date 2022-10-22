@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPF__LECTION_1._10._2022_.Task_five"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF__LECTION_1._10._2022_"
+        mc:Ignorable="d"
+        Title="Task_five" Height="694" Width="1343">
+    <Grid>
+        <Label x:Name="Label_task_five" Content="Сгенерировать массив размером M столбцов и N строк, содержащий числа от -10 до 10.Отобразить его пользователю.&#xD;&#xA;Отсортировать элементы в нем по возрастанию и по убыванию. &#xD;&#xA;Вывести результаты сортировки в двух таблицах. Найти максимальный и минимальный элементы массива. " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Height="119" Width="1005" Margin="10,10,0,0"/>
+        <Label x:Name="Label_stroks" Content="Введите количество столбцов массива" HorizontalAlignment="Left" Margin="33,145,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="TextBox_stroks" HorizontalAlignment="Left" Margin="47,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" FontSize="16"/>
+        <Label x:Name="Label_columns" Content="Введите количество строк массива" HorizontalAlignment="Left" Margin="46,253,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="TextBox_columns" HorizontalAlignment="Left" Margin="46,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" FontSize="16"/>
+        <Button x:Name="Button_mas_first" Content="Вычислить" HorizontalAlignment="Left" Margin="88,347,0,0" VerticalAlignment="Top" FontSize="16" Height="66" Width="174" Click="Button_mas_first_Click" RenderTransformOrigin="1.109,0.348"/>
+        <DataGrid x:Name="DataGrid_Mas_first" Margin="333,444,514,10"/>
+        <DataGrid x:Name="DataGrid_Mas_two" Margin="853,161,10,298"/>
+        <Label x:Name="Label_ubivanie" Content="Сортировка по убыванию" HorizontalAlignment="Left" Margin="467,408,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="Label_vozrastanie" Content="Сортировка по возрастанию" HorizontalAlignment="Left" Margin="992,123,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="TextBox_Min" HorizontalAlignment="Left" Margin="67,570,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" FontSize="16"/>
+        <Label x:Name="Label_elem_min" Content="Минимальный элемент" HorizontalAlignment="Left" Margin="84,534,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="TextBox_Max_elem" HorizontalAlignment="Left" Margin="68,494,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="16"/>
+        <Label x:Name="Label_max_elem" Content="Максимальный элемент" HorizontalAlignment="Left" Margin="87,458,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <DataGrid x:Name="dg_mas_vivod" Margin="333,154,514,298"/>
+        <Label x:Name="Label_mas_vivod" Content="Вывод вашего массива" HorizontalAlignment="Left" Margin="467,123,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+    </Grid>
+</Window>

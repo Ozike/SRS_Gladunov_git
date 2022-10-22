@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF__LECTION_1._10._2022_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF__LECTION_1._10._2022_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Label_name_group" Content="Гладунов Сергей ПР-20.101" HorizontalAlignment="Center" Margin="0,42,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_variant" Content="Вариант 4" HorizontalAlignment="Center" Margin="0,103,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="Button_task_one" Content="Задача 1" HorizontalAlignment="Left" Margin="57,204,0,0" VerticalAlignment="Top" FontSize="20" Height="57" Width="95" Click="Button_task_one_Click"/>
+        <Button x:Name="Button_task_two" Content="Задача 2" HorizontalAlignment="Left" Margin="232,204,0,0" VerticalAlignment="Top" FontSize="20" Height="57" Width="95" Click="Button_task_two_Click"/>
+        <Button x:Name="Button_Task_three" Content="Задача 3" HorizontalAlignment="Left" Margin="465,204,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-3.487,3.271" Height="57" Width="95" Click="Button_Task_three_Click"/>
+        <Button x:Name="Button_task_four" Content="Задача 4" HorizontalAlignment="Left" Margin="641,204,0,0" VerticalAlignment="Top" FontSize="20" Width="95" Height="57" Click="Button_task_four_Click"/>
+        <Button x:Name="Button_task_five" Content="Задача 5" HorizontalAlignment="Left" Margin="349,292,0,0" VerticalAlignment="Top" Width="95" Height="57" FontSize="20" Click="Button_task_five_Click_1"/>
+
+    </Grid>
+</Window>
